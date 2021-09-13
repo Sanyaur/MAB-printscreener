@@ -7,6 +7,10 @@
     # mentse el a megadott helyre megadott néven a printscreeneket
 # lépjen ki a böngészőből
 
+# TO-DO:
+    # remove tszám + jelszó (read it from a txt file)
+    # create a loop for 'nav-itm' class and IF class.innerText === 'TANÁCSADÓKNAK', kattintson rá és breakelje a loopot
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -83,6 +87,6 @@ for i in url_list:
 now = datetime.now()
 
 current_time = now.strftime("%H:%M:%S")
-print(f'Script ended at{current_time}')
+print(f'Script ended at {current_time}')
 
 driver.quit()
