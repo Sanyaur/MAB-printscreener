@@ -1,11 +1,10 @@
 # nyissa meg a mabot
-    # ha létezik a cookie banner element, kattintson az elfogadásra
 # login fieldbe írja be a tszámot + jelszót
-    # várja meg amíg betölt a splash page (legalább addig amíg elmennek a login adatok a szerverig)
-# navigáljon el a https://www2.avon.hu/hu-home/product-catalog/rep-support.html#1 URLre (és annak aloldalaira)
-    # várja meg amíg betölt az utolsó product element is 'div.prdItm-wrapper:last-child div.slide > img'
-    # csináljon printscreent, aminek a neve legyen driver.title
-    # mindegyik URL-t futtassa végig valamilyen looppal
+# navigáljon el a https://www2.avon.hu/hu-home/product-catalog/ URLre (és annak aloldalaira)
+    # gyűjtse ki a rep-support category URL-jeit
+    # loopoljon át az összes oldalon
+    # csináljon printscreent mindegyik oldalról (ha már betöltött az oldal)
+    # mentse el a megadott helyre megadott néven a printscreeneket
 # lépjen ki a böngészőből
 
 from selenium import webdriver
