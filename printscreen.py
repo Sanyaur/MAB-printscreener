@@ -85,33 +85,4 @@ now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
 print(f'Script ended at{current_time}')
 
-quit()
-
-def order_process():
-    try:
-        # sleep(2)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-        driver.get('https://www2.avon.hu/hu-home/orders/product-entry')
-    except:
-        print('LN input page load failed')
-        exit()
-        
-    ln_input_field = driver.find_element_by_css_selector('.shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)')
-    termek_mentese_button = driver.find_element_by_css_selector('.shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(2)')
-    tovabb_button = driver.find_element_by_id('btnCont')
-
-    sleep(3)
-    ln_input_field.send_keys('00018')
-    sleep(2)
-    termek_mentese_button.click()
-    sleep(4)
-    product_popup_X = driver.find_element_by_css_selector('.nav_wrap > span:nth-child(1)')
-    product_popup_X.click()
-    sleep(4)
-    tovabb_button.click()
-    print('ennyike')
-order_process()
-
-# printscreen from sales tools
-# next page
-# printscreen from next page
+driver.quit()
