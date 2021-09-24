@@ -113,9 +113,15 @@ def county_box(num):
 
 
 def LN_input_page():
-    order_list = [
-'00018', 1
-                    ]
+    try:
+        popup_button = '.nav_wrap > span:nth-child(1)'
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, popup_button)))
+        product_popup_X = driver.find_element_by_css_selector(popup_button)
+        product_popup_X.click()
+    except:
+        print('nincs popup')
+        
+    order_list = ['00018', 1]
     termeklista = order_list[::2]
     product_count = order_list[1::2]
 
@@ -131,13 +137,6 @@ def LN_input_page():
     termek_mentese_button = driver.find_element_by_css_selector('.shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(2)')
     termek_mentese_button.click()
     # sleep(4)
-    try:
-        popup_button = '.nav_wrap > span:nth-child(1)'
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, popup_button)))
-        product_popup_X = driver.find_element_by_css_selector(popup_button)
-        product_popup_X.click()
-    except:
-        print('nincs popup')
     # sleep(2)
     tovabb_button.click()
 LN_input_page()
@@ -149,7 +148,6 @@ def next_step_click(selector):
 create_printscreen('.pao-salestool')
 next_step_click('.nxt-stp')
 create_printscreen('.pao-salestool')
-next_step_click('.nxt-stp')
 
 now = datetime.now()
 
