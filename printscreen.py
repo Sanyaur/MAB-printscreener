@@ -1,7 +1,3 @@
-# TO-DO:
-# remove tszám + jelszó (read it from a txt file)
-# create a loop for 'nav-itm' class and IF class.innerText === 'TANÁCSADÓKNAK', kattintson rá és breakelje a loopot
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -10,6 +6,16 @@ from selenium.webdriver.support import expected_conditions as EC, wait
 
 from time import sleep
 from datetime import datetime
+
+from selenium.webdriver.firefox.options import Options
+
+# -----HEADLESS SCRIPT-----
+# options = Options()
+# options.headless = True
+
+# PATH = "c:/Program Files (x86)/geckodriver.exe"
+# driver = webdriver.Firefox(options=options, executable_path=PATH)
+# -----HEADLESS SCRIPT-----
 
 PATH = "c:/Program Files (x86)/geckodriver.exe"
 driver = webdriver.Firefox(executable_path=PATH)
