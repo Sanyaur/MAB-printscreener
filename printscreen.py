@@ -7,9 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC, wait
 from time import sleep
 from datetime import datetime
 
-from selenium.webdriver.firefox.options import Options
-
 # -----HEADLESS SCRIPT-----
+# from selenium.webdriver.firefox.options import Options
+
 # options = Options()
 # options.headless = True
 
