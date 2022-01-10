@@ -29,13 +29,10 @@ def set_window_size():
     width1 = size.get("width")
     height1 = driver.execute_script("return document.documentElement.scrollHeight")
 
-    print("scrollheight is", height1)
-
     driver.set_window_size(width1, height1)
 
 
 def login_field():
-    # wait for elements to load
     username = driver.find_element_by_id("sellerUserId")
     password = driver.find_element_by_id("sellerEmailPassword")
 
@@ -54,7 +51,6 @@ try:
 except:
     print("login page ❌")
 
-# WAIT TILL X ELEMENT LOADS
 try:
     WebDriverWait(driver, 20).until(
         EC.presence_of_element_located((By.CLASS_NAME, "sub-div"))
@@ -124,7 +120,6 @@ try:
     print("input fields loaded")
 except:
     print("input fields failed")
-# sleep(5)
 
 
 def ln_input_field(num):
@@ -169,8 +164,7 @@ def LN_input_page():
         ".shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(3) > button:nth-child(2)"
     )
     termek_mentese_button.click()
-    # sleep(4)
-    # sleep(2)
+
     tovabb_button.click()
 
 
