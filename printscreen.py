@@ -1,3 +1,7 @@
+# TODO:
+#   relocate final printscreen location to desktop/MAB folder
+#   separate printscreens daily
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -150,7 +154,10 @@ try:
     order_list = ["00018", 1]
     termeklista = order_list[::2]
     product_count = order_list[1::2]
-
+    # FIXME:
+    #   something is too fast here:
+    #       the 'save order button' happens too fast,
+    #       cannot save the order fast enough to proceed to next page
     ln_input_field_child = 1
     for line_number in range(len(termeklista)):
         ln_input_field(ln_input_field_child).send_keys(str(termeklista[line_number]))
