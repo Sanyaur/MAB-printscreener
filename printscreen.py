@@ -74,7 +74,7 @@ def create_printscreen(css_selector):
     if css_selector == ".pao-salestool":
         ele.screenshot(f"{scrnshot_img_path}SALES TOOLS - {driver.title}.png")
 
-    print(f"Printscreen created from: {driver.title}")
+    print(f"📸 Printscreen created from: {driver.title}")
 
 
 # ---------------- LOCAL CATEGORIES PART ----------------
