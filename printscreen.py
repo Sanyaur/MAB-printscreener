@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC, wait
 # time releated packages
 import time
 from time import sleep
-from datetime import datetime
+from datetime import datetime, date
 
 # making folder for screenshot
 from pathlib import Path
@@ -29,8 +29,6 @@ from pathlib import Path
 
 PATH = "c:/Program Files (x86)/geckodriver.exe"
 driver = webdriver.Firefox(executable_path=PATH)
-
-scrnshot_img_path = "c:/Users/ujvaris/OneDrive - Avon/Desktop/_to_be_deleted/MAB sprint screenshots/"  # img will be saved here
 
 
 def set_window_size():
@@ -70,6 +68,12 @@ try:
     print("product-catalog ✅")
 except:
     print("product-catalog ❌")
+
+# creates new folder for the upcoming printscreens with today's date
+today_folder = date.today()
+scrnshot_img_path = f"c:/Users/ujvaris/OneDrive - Avon/Desktop/MAB/MAB sprint screenshots/{today_folder}/"  # img will be saved here
+
+Path(scrnshot_img_path).mkdir(parents=True, exist_ok=True)
 
 
 def create_printscreen(css_selector):
