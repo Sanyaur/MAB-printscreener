@@ -149,37 +149,16 @@ def county_box(num):
 
 
 try:
+    sleep_time = 4
+    print(f"⌛ waiting for popup for {sleep_time} seconds")
     popup_button = ".nav_wrap > span:nth-child(1)"
-    WebDriverWait(driver, 4).until(
+    WebDriverWait(driver, sleep_time).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, popup_button))
     )
     product_popup_X = driver.find_element_by_css_selector(popup_button)
     product_popup_X.click()
 except:
-    print("nincs popup")
-
-
-try:
-    order_list = ["00018", 1]
-    termeklista = order_list[::2]
-    product_count = order_list[1::2]
-    # FIXME:
-    #   something is too fast here:
-    #       the 'save order button' happens too fast,
-    #       cannot save the order fast enough to proceed to next page
-    ln_input_field_child = 1
-    for line_number in range(len(termeklista)):
-        ln_input_field(ln_input_field_child).send_keys(str(termeklista[line_number]))
-        county_box(ln_input_field_child).send_keys(str(product_count[line_number]))
-        ln_input_field_child += 1
-        sleep(1)
-
-    termek_mentese_button = driver.find_element_by_css_selector(
-        ".avn-prim-btn.ordrUpdt"
-    )
-    termek_mentese_button.click()
-except Exception as e:
-    print(e)
+    print("no popup")
 
 try:
     tovabb_button = WebDriverWait(driver, 10).until(
@@ -188,7 +167,6 @@ try:
     tovabb_button.click()
 except Exception as e:
     print(e)
-
 
 try:
     WebDriverWait(driver, 10).until(
