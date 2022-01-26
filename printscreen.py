@@ -2,15 +2,20 @@
 #   relocate final printscreen location to desktop/MAB folder
 #   separate printscreens daily
 
+# selenium packages
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC, wait
 
+# time releated packages
 import time
 from time import sleep
 from datetime import datetime
+
+# making folder for screenshot
+from pathlib import Path
 
 # -----HEADLESS SCRIPT-----
 # from selenium.webdriver.firefox.options import Options
