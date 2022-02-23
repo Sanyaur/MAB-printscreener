@@ -84,33 +84,33 @@ def create_printscreen(css_selector):
 
 
 # ---------------- LOCAL CATEGORIES PART ----------------
-try:
-    elements = driver.find_elements(
-        By.CSS_SELECTOR, "div.nav-itm:nth-child(2) masonry-brick div"
-    )  # get URLs from 'Tanácsadóknak' menu
-    url_list = []
-    for e in elements:
-        mab_url = e.get_attribute("url")
-        url_list.append(mab_url)
-    print("URLs loaded to array ✅")
-except:
-    print("URLs loaded to array ❌")
+# try:
+#     elements = driver.find_elements(
+#         By.CSS_SELECTOR, "div.nav-itm:nth-child(2) masonry-brick div"
+#     )  # get URLs from 'Tanácsadóknak' menu
+#     url_list = []
+#     for e in elements:
+#         mab_url = e.get_attribute("url")
+#         url_list.append(mab_url)
+#     print("URLs loaded to array ✅")
+# except:
+#     print("URLs loaded to array ❌")
 
-try:
-    # Loops through the 'Tanácsadóknak' menu URLs
-    for i in url_list:
-        driver.get(f"https://www2.avon.hu{i}")
-        try:
-            WebDriverWait(driver, 10).until(
-                lambda driver: driver.execute_script("return document.readyState")
-                == "complete"
-            )
-            create_printscreen(".plpPage-c")
-        except:
-            print(f"error when loading URL: https://www2.avon.hu{i}")
-    print("local category printscreens ✅")
-except:
-    print("local category printscreens ❌")
+# try:
+#     # Loops through the 'Tanácsadóknak' menu URLs
+#     for i in url_list:
+#         driver.get(f"https://www2.avon.hu{i}")
+#         try:
+#             WebDriverWait(driver, 10).until(
+#                 lambda driver: driver.execute_script("return document.readyState")
+#                 == "complete"
+#             )
+#             create_printscreen(".plpPage-c")
+#         except:
+#             print(f"error when loading URL: https://www2.avon.hu{i}")
+#     print("local category printscreens ✅")
+# except:
+#     print("local category printscreens ❌")
 
 
 # ---------------- SALES TOOLS PART ----------------
