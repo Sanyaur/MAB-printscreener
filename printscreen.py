@@ -21,7 +21,7 @@ from selenium.webdriver.firefox.options import Options
 
 options = Options()
 # setup "True" for headless, "False" for normal mode
-options.headless = False
+options.headless = True
 
 PATH = "c:/Program Files (x86)/geckodriver.exe"
 driver = webdriver.Firefox(options=options, executable_path=PATH)
@@ -53,18 +53,18 @@ try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "sellerEmailPassword"))
     )
-    print("login page ✅")
+    print("login page OK")
     login_field()
 except:
-    print("login page ❌")
+    print("login page NOT OK")
 
 try:
     WebDriverWait(driver, 20).until(
         EC.presence_of_element_located((By.CLASS_NAME, "sub-div"))
     )
-    print("product-catalog ✅")
+    print("product-catalog OK")
 except:
-    print("product-catalog ❌")
+    print("product-catalog NOT OK")
 
 # creates new folder for the upcoming printscreens with today's date
 today_date = date.today()
@@ -80,7 +80,7 @@ def create_printscreen(css_selector):
     if css_selector == ".pao-salestool":
         ele.screenshot(f"{scrnshot_img_path}SALES TOOLS - {driver.title}.png")
 
-    print(f"📸 Printscreen created from: {driver.title}")
+    print(f"PRINTSCREEN created from: {driver.title}")
 
 
 # ---------------- LOCAL CATEGORIES PART ----------------
@@ -92,9 +92,9 @@ try:
     for e in elements:
         mab_url = e.get_attribute("url")
         url_list.append(mab_url)
-    print("URLs loaded to array ✅")
+    print("URLs loaded to array OK")
 except:
-    print("URLs loaded to array ❌")
+    print("URLs loaded to array NOT OK")
 
 try:
     # Loops through the 'Tanácsadóknak' menu URLs
@@ -108,9 +108,9 @@ try:
             create_printscreen(".plpPage-c")
         except:
             print(f"error when loading URL: https://www2.avon.hu{i}")
-    print("local category printscreens ✅")
+    print("local category printscreens OK")
 except:
-    print("local category printscreens ❌")
+    print("local category printscreens NOT OK")
 
 
 # ---------------- SALES TOOLS PART ----------------
@@ -118,7 +118,7 @@ driver.get("https://www2.avon.hu/hu-home/orders/sales-tools")
 
 try:
     sleep_time = 3
-    print(f"⌛ waiting for popup for {sleep_time} seconds")
+    print(f"WAITING for popup for {sleep_time} seconds")
     popup_button = "#sim button"
     WebDriverWait(driver, sleep_time).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, popup_button))
@@ -137,7 +137,7 @@ try:
     )
 
     create_printscreen(".pao-salestool")
-    print("sales tools page success ✅")
+    print("sales tools page success OK")
 except Exception as e:
     print(e)
 
