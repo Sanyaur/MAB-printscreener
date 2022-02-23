@@ -17,18 +17,14 @@ from datetime import datetime, date
 # making folder for screenshot
 from pathlib import Path
 
-# -----HEADLESS SCRIPT-----
-# from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.options import Options
 
-# options = Options()
-# options.headless = True
-
-# PATH = "c:/Program Files (x86)/geckodriver.exe"
-# driver = webdriver.Firefox(options=options, executable_path=PATH)
-# -----HEADLESS SCRIPT-----
+options = Options()
+# setup "True" for headless, "False" for normal mode
+options.headless = False
 
 PATH = "c:/Program Files (x86)/geckodriver.exe"
-driver = webdriver.Firefox(executable_path=PATH)
+driver = webdriver.Firefox(options=options, executable_path=PATH)
 
 
 def set_window_size():
@@ -52,6 +48,7 @@ start = time.time()
 
 driver.get("https://www2.avon.hu/hu-home/product-catalog.html")  # opens MAB
 
+# ---------------- MUST HAVE PART ----------------
 try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "sellerEmailPassword"))
@@ -70,8 +67,8 @@ except:
     print("product-catalog ❌")
 
 # creates new folder for the upcoming printscreens with today's date
-today_folder = date.today()
-scrnshot_img_path = f"c:/Users/ujvaris/OneDrive - Avon/Desktop/MAB/MAB sprint screenshots/{today_folder}/"  # img will be saved here
+today_date = date.today()
+scrnshot_img_path = f"c:/Users/ujvaris/OneDrive - Avon/Desktop/MAB/MAB sprint screenshots/{today_date}/"  # img will be saved here
 
 Path(scrnshot_img_path).mkdir(parents=True, exist_ok=True)
 
@@ -117,56 +114,19 @@ except:
 
 
 # ---------------- SALES TOOLS PART ----------------
-driver.get("https://www2.avon.hu/hu-home/orders/product-entry")
+driver.get("https://www2.avon.hu/hu-home/orders/sales-tools")
 
 try:
-    input_field_selector = ".shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > input:nth-child(2)"
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located(
-            (
-                By.CSS_SELECTOR,
-                input_field_selector,
-            )
-        )
-    )
-    print("input fields loaded ✅")
-except:
-    print("input fields failed ❌")
-
-
-def ln_input_field(num):
-    ln_input_field = driver.find_element_by_css_selector(
-        f".shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child({num}) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)"
-    )
-    return ln_input_field
-
-
-def county_box(num):
-    ln_input_field = driver.find_element_by_css_selector(
-        f".shpByProdNum > tab-entry-core:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child({num}) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)"
-    )
-    return ln_input_field
-
-
-try:
-    sleep_time = 4
+    sleep_time = 3
     print(f"⌛ waiting for popup for {sleep_time} seconds")
-    popup_button = ".nav_wrap > span:nth-child(1)"
+    popup_button = "#sim button"
     WebDriverWait(driver, sleep_time).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, popup_button))
     )
-    product_popup_X = driver.find_element_by_css_selector(popup_button)
-    product_popup_X.click()
+    popup_window_close_button = driver.find_element_by_css_selector(popup_button)
+    popup_window_close_button.click()
 except:
     print("no popup")
-
-try:
-    tovabb_button = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.CSS_SELECTOR, "#btnCont"))
-    )
-    tovabb_button.click()
-except Exception as e:
-    print(e)
 
 try:
     WebDriverWait(driver, 10).until(
