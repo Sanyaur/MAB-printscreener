@@ -1,7 +1,3 @@
-# TODO:
-#   relocate final printscreen location to desktop/MAB folder
-#   separate printscreens daily
-
 # selenium packages
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
