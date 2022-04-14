@@ -17,6 +17,9 @@ from datetime import datetime, date
 # making folder for screenshot
 from pathlib import Path
 
+# login credentials
+import credentials
+
 from selenium.webdriver.firefox.options import Options
 
 options = Options()
@@ -40,8 +43,8 @@ def login_field():
     username = driver.find_element_by_id("sellerUserId")
     password = driver.find_element_by_id("sellerEmailPassword")
 
-    username.send_keys("6290011")
-    password.send_keys("ezEgyJelszó!01" + Keys.ENTER)
+    username.send_keys(credentials.username)
+    password.send_keys(credentials.password + Keys.ENTER)
 
 
 start = time.time()

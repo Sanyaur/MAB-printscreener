@@ -192,3 +192,660 @@ JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxE
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1645615361702	geckodriver	INFO	Listening on 127.0.0.1:62664
+1645615361723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62665" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileBVuoNu"
+*** You are running in headless mode.
+1645615362158	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileBVuoNu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62665/devtools/browser/43df4b50-0d3a-4b7f-a380-fab717096c67
+1645615363682	Marionette	INFO	Listening on port 62668
+1645615363785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645615416599	Marionette	INFO	Stopped listening on port 62668
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+pt error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645615421454	Marionette	INFO	Stopped listening on port 62722
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsJavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645615431870	Marionette	INFO	Stopped listening on port 62910
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645618133813	geckodriver	INFO	Listening on 127.0.0.1:60509
+1645618134336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60510" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofile23DztU"
+*** You are running in headless mode.
+1645618134932	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofile23DztU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60510/devtools/browser/2cec6a1d-7a6d-4239-942e-94cd5d620bb4
+1645618136282	Marionette	INFO	Listening on port 60513
+1645618136406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645618179215	Marionette	INFO	Stopped listening on port 60513
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1645618402696	geckodriver	INFO	Listening on 127.0.0.1:57070
+1645618403220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57071" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilejnJjA6"
+1645618403817	Marionette	INFO	Marionette enabled
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilejnJjA6\\search.json.mozlz4", (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+DevTools listening on ws://localhost:57071/devtools/browser/5f0b803c-93dd-4d6d-b0f5-968dfd9a919c
+1645618406168	Marionette	INFO	Listening on port 57075
+1645618406408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-P5HZSTC, line 153: TypeError: a.indexOf is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645618443012	Marionette	INFO	Stopped listening on port 57075
+1645618518370	geckodriver	INFO	Listening on 127.0.0.1:57306
+1645618518911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57307" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilerEQ6R0"
+*** You are running in headless mode.
+1645618519489	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilerEQ6R0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57307/devtools/browser/a004b53d-ef7a-4bf8-b6c5-9dc0cc31f63d
+1645618520848	Marionette	INFO	Listening on port 57310
+1645618520963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645618562337	Marionette	INFO	Stopped listening on port 57310
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645619166631	geckodriver	INFO	Listening on 127.0.0.1:55225
+1645619167163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55226" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilemSBnPN"
+*** You are running in headless mode.
+1645619167528	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilemSBnPN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55226/devtools/browser/46656867-b65a-4def-b47e-cf1f762b94f9
+1645619168861	Marionette	INFO	Listening on port 55229
+1645619169224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645619210654	Marionette	INFO	Stopped listening on port 55229
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1645691409174	geckodriver	INFO	Listening on 127.0.0.1:54086
+1645691409374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54087" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilenbwNUA"
+*** You are running in headless mode.
+1645691411592	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilenbwNUA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54087/devtools/browser/e3544b2f-71fe-464c-924d-1190612748f1
+1645691415061	Marionette	INFO	Listening on port 54096
+1645691415224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-P5HZSTC, line 153: TypeError: a.indexOf is not a function
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645691469901	Marionette	INFO	Stopped listening on port 54096
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645777802720	geckodriver	INFO	Listening on 127.0.0.1:49853
+1645777802741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49854" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileempqbF"
+*** You are running in headless mode.
+1645777803665	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileempqbF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49854/devtools/browser/2df6f2fe-5795-4789-a4bd-700b549a8ce9
+1645777806117	Marionette	INFO	Listening on port 49858
+1645777806473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-P5HZSTC, line 152: TypeError: a.indexOf is not a function
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1645777849136	Marionette	INFO	Stopped listening on port 49858
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646037004343	geckodriver	INFO	Listening on 127.0.0.1:61505
+1646037004366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61506" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileq9F12S"
+*** You are running in headless mode.
+1646037005333	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileq9F12S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61506/devtools/browser/053c5d21-b017-449e-a2e7-648db44c9548
+1646037006751	Marionette	INFO	Listening on port 61509
+1646037006781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1646037046614	Marionette	INFO	Stopped listening on port 61509
+[Parent 9892, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646123404053	geckodriver	INFO	Listening on 127.0.0.1:60460
+1646123404092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "60461" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileFnQT7R"
+*** You are running in headless mode.
+1646123404828	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileFnQT7R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60461/devtools/browser/444867f7-2612-4fa8-a53c-8d79bf833072
+1646123406198	Marionette	INFO	Listening on port 60466
+1646123406265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1646123437744	Marionette	INFO	Stopped listening on port 60466
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646209804256	geckodriver	INFO	Listening on 127.0.0.1:51160
+1646209804276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51161" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilexz7fDY"
+*** You are running in headless mode.
+1646209804979	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilexz7fDY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51161/devtools/browser/578cd1dc-ebe1-4693-8e3c-f72a91d62c4c
+1646209806629	Marionette	INFO	Listening on port 51165
+1646209806954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-P5HZSTC, line 152: TypeError: a.indexOf is not a function
+JavaScript error: https://www.google-analytics.com/gtm/optimize.js?id=OPT-5DLWTQZ, line 119: TypeError: a.indexOf is not a function
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1646209960534	Marionette	INFO	Stopped listening on port 51165
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646296204271	geckodriver	INFO	Listening on 127.0.0.1:52132
+1646296204295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52133" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileUoAd4p"
+*** You are running in headless mode.
+1646296204906	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileUoAd4p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52133/devtools/browser/65dd02e8-8531-491e-9490-e7e7e8f80784
+1646296206525	Marionette	INFO	Listening on port 52136
+1646296206966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1646296246387	Marionette	INFO	Stopped listening on port 52136
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646382603536	geckodriver	INFO	Listening on 127.0.0.1:52364
+1646382603559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52365" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilebd4850"
+*** You are running in headless mode.
+1646382604213	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilebd4850\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52365/devtools/browser/d9254dbc-2cc7-44a4-9c98-88c604048585
+1646382605785	Marionette	INFO	Listening on port 52368
+1646382606246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1646382646587	Marionette	INFO	Stopped listening on port 52368
+[Parent 12472, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1646737786814	geckodriver	INFO	Listening on 127.0.0.1:49774
+1646737787336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofile7CsYqM"
+1646737787955	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofile7CsYqM\\search.json.mozlz4", (void 0)))
+1646737790441	Marionette	INFO	Listening on port 49782
+1646737790725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1646737831653	Marionette	INFO	Stopped listening on port 49782
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1648568869692	geckodriver	INFO	Listening on 127.0.0.1:60016
+1648568869722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileG4usPe"
+*** You are running in headless mode.
+1648568870499	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileG4usPe\\search.json.mozlz4", (void 0)))
+1648568872726	Marionette	INFO	Listening on port 60021
+1648568872929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1649929861641	geckodriver	INFO	Listening on 127.0.0.1:57607
+1649929862160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileQyAGM8"
+*** You are running in headless mode.
+1649929862592	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileQyAGM8\\search.json.mozlz4", (void 0)))
+1649929864024	Marionette	INFO	Listening on port 57613
+1649929864221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1649929928785	Marionette	INFO	Stopped listening on port 57613
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649929948756	geckodriver	INFO	Listening on 127.0.0.1:57884
+1649929949280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilemnJy3z"
+1649929949650	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofilemnJy3z\\search.json.mozlz4", (void 0)))
+1649929951741	Marionette	INFO	Listening on port 57889
+1649929951965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1649929983994	geckodriver	INFO	Listening on 127.0.0.1:58099
+1649929984519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileqxpH2c"
+*** You are running in headless mode.
+1649929984905	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileqxpH2c\\search.json.mozlz4", (void 0)))
+1649929986325	Marionette	INFO	Listening on port 58105
+1649929986573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.google-analytics.com/gtm/optimize.js?id=GTM-T9ZSHXF, line 115: TypeError: a.indexOf is not a function
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1649930045775	Marionette	INFO	Stopped listening on port 58105
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_RemoveDynEntriesFromActiveSessionHistoryEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_SynchronizeLayoutHistoryState) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PBrowserBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PBrowserBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649930047190	geckodriver	INFO	Listening on 127.0.0.1:58350
+1649930047730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileCjmvbn"
+*** You are running in headless mode.
+1649930048152	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileCjmvbn\\search.json.mozlz4", (void 0)))
+1649930049337	Marionette	INFO	Listening on port 58355
+1649930049782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
