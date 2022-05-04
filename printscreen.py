@@ -43,8 +43,10 @@ def login_field():
     password.send_keys(credentials.password + Keys.ENTER)
 
 
+# logging time starts here
 start = time.time()
 
+print("Script started...")
 driver.get("https://www2.avon.hu/hu-home/product-catalog.html")  # opens MAB
 
 # ---------------- MUST HAVE PART ----------------
