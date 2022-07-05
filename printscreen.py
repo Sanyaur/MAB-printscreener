@@ -54,10 +54,11 @@ try:
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "sellerEmailPassword"))
     )
-    print("login page OK")
     login_field()
+    print("login page OK")
 except:
     print("login page NOT OK")
+    driver.quit()
 
 try:
     WebDriverWait(driver, 20).until(
@@ -66,6 +67,7 @@ try:
     print("product-catalog OK")
 except:
     print("product-catalog NOT OK")
+    driver.quit()
 
 # creates new folder for the upcoming printscreens with today's date
 today_date = date.today()
@@ -96,6 +98,7 @@ try:
     print("URLs loaded to array OK")
 except:
     print("URLs loaded to array NOT OK")
+    driver.quit()
 
 try:
     # Loops through the 'Tanácsadóknak' menu URLs
@@ -112,6 +115,7 @@ try:
     print("local category printscreens OK")
 except:
     print("local category printscreens NOT OK")
+    driver.quit()
 
 
 # ---------------- SALES TOOLS PART ----------------
