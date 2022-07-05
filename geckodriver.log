@@ -1163,3 +1163,60 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657016071570	geckodriver	INFO	Listening on 127.0.0.1:54016
+1657016072128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileVRkSjU"
+*** You are running in headless mode.
+1657016072537	Marionette	INFO	Marionette enabled
+1657016072542	Marionette	INFO	Listening on port 54021
+1657016072795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileVRkSjU\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1657016131942	geckodriver	INFO	Listening on 127.0.0.1:54202
+1657016132462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileUA8cuU"
+*** You are running in headless mode.
+1657016132890	Marionette	INFO	Marionette enabled
+1657016132896	Marionette	INFO	Listening on port 54209
+1657016133100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileUA8cuU\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1657016355802	geckodriver	INFO	Listening on 127.0.0.1:54550
+1657016356321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileHj8Rbd"
+1657016356803	Marionette	INFO	Marionette enabled
+1657016356809	Marionette	INFO	Listening on port 54560
+1657016357007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileHj8Rbd\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1657016974699	Marionette	INFO	Stopped listening on port 54560
+("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileG8ec5x\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1657016589902	Marionette	INFO	Stopped listening on port 54920
+1657017643179	geckodriver	INFO	Listening on 127.0.0.1:55872
+1657017643702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileJwcsek"
+1657017644234	Marionette	INFO	Marionette enabled
+1657017644240	Marionette	INFO	Listening on port 55879
+1657017644876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ujvaris\\AppData\\Local\\Temp\\rust_mozprofileJwcsek\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www2.avon.hu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www2.avon.hu/hu-home/orders/offers, line 1087: SyntaxError: redeclaration of let cheatScript
+1657017700125	Marionette	INFO	Stopped listening on port 55879
