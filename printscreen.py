@@ -36,8 +36,8 @@ def set_window_size():
 
 
 def login_field():
-    username = driver.find_element_by_id("sellerUserId")
-    password = driver.find_element_by_id("sellerEmailPassword")
+    username = driver.find_element(By.ID, "sellerUserId")
+    password = driver.find_element(By.ID, "sellerEmailPassword")
 
     username.send_keys(credentials.username)
     password.send_keys(credentials.password + Keys.ENTER)
@@ -148,10 +148,13 @@ except Exception as e:
 
 
 def next_step_click(selector):
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, selector))
-    )
-    driver.find_element_by_css_selector(selector).click()
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, selector))
+        )
+        driver.find_element(By.CSS_SELECTOR, selector).click()
+    except Exception as e:
+        print(e)
 
 
 next_step_click(".nxt-stp")
